@@ -4,6 +4,6 @@ ssh 7caus@wtmgws7.informatik.uni-hamburg.de
 
 nvidia-smi
 
-CUDA_VISIBLE_DEVICES=1 python ./translate.py --en_vocab_size=40000 --fr_vocab_size=40000 --data_dir=/data/alpay/chatbot2/train --train_dir=/data/alpay/chatbot2/train --decode
+CUDA_VISIBLE_DEVICES=0 python ./translate.py --en_vocab_size=40000 --fr_vocab_size=40000 --data_dir=/data/alpay/chatbot2/train --train_dir=/data/alpay/chatbot2/train --decode
 
-CUDA_VISIBLE_DEVICES=1  python ./translate.py --en_vocab_size=40000 --fr_vocab_size=40000 --data_dir=/data/alpay/chatbot2/train --train_dir=/data/alpay/chatbot2/train 
+CUDA_VISIBLE_DEVICES=0  python ./translate.py --en_vocab_size=40000 --fr_vocab_size=40000 --data_dir=/data/alpay/chatbot2/train --train_dir=/data/alpay/chatbot2/train 
